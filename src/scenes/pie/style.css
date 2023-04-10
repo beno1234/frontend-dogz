@@ -1,0 +1,57 @@
+.custom-select {
+    background: rgba(255, 255, 255, 0.09);
+    color: #fff;
+    border: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+
+}
+
+.custom-select-1 {
+    background: rgba(255, 255, 255, 0.09);
+    color: #fff;
+    border: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+    margin-right: 1rem;
+}
+
+.custom-select-1::after {
+    content: '';
+    border-bottom: 1px solid #fff;
+}
+
+.custom-select::after {
+    content: '';
+    border-bottom: 1px solid #fff;
+}
+
+.custom-select-2 {
+    background: rgba(255, 255, 255, 0.09);
+    color: #fff;
+    border: 0;
+    padding: 0.625rem;
+    border-bottom: 1px solid #fff;
+
+}
+
+.custom-select-2::after {
+    content: '';
+    border-bottom: 1px solid #fff;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.error-field {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
